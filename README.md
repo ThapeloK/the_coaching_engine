@@ -245,7 +245,7 @@ while you are working.
 `python services/api/check_providers.py` calls every provider for real and prints what each one
 does. Run it before a demo: *"the key is set"* has never meant *"the call works"* on this project.
 
-| Task | Provider | Why this one |
+| Task | Provider | Why this one? |
 |---|---|---|
 | Guest turn in practice | Groq `qwen3.8-27b` | ~700ms vs ~1400ms. The only task a human waits on live |
 | Debrief transcription | Groq `whisper-large-v3-turbo` | Audio is transcribed then deleted. Language is detected, not assumed |
