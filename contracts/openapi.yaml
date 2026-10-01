@@ -1,0 +1,510 @@
+openapi: 3.1.0
+
+# ============================================================
+#  The Coaching Engine API
+#
+#  FROZEN. Ziyi builds the API against this, Nathan builds the agent against
+#  it, Puneet tests against it, all in parallel and none of us waiting.
+#
+#  Changing anything here breaks somebody else's work in progress. Post in the
+#  tech group first, naming what breaks. See CONTRIBUTING.
+#
+#  Full narrative spec: 02B-LLD-API-Contracts.
+# ============================================================
+
+info:
+  title: The Coaching Engine API
+  version: 0.1.0
+  description: |
+    Two independent evidence streams per staff member, reasoned over to produce
+    grounded, cited coaching that a manager verifies before anything happens.
+
+servers:
+  - url: /api/v1
+
+security:
+  - bearerAuth: []
+
+paths:
+
+  # ---------------------------------------------------------- debrief (1-3)
+  /debriefs:
+    post:
+      summary: Register an uploaded voice debrief and start processing
+      parameters:
+        - $ref: '#/components/parameters/IdempotencyKey'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [upload_key, duration_ms, recorded_at]
+              properties:
+                upload_key:  { type: string }
+                duration_ms: { type: integer, minimum: 1000, maximum: 180000 }
+                recorded_at: { type: string, format: date-time }
+      responses:
+        '202':
+          description: Accepted for async processing
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:            { type: string, format: uuid }
+                  status:        { $ref: '#/components/schemas/DebriefStatus' }
+                  poll_after_ms: { type: integer }
+
+  /debriefs/{id}:
+    get:
+      summary: Poll a debrief; returns the cited standard once extracted
+      parameters:
+        - $ref: '#/components/parameters/Id'
+      responses:
+        '200':
+          description: Current state
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Debrief' }
+
+  # ---------------------------------------------------------- practice (4)
+  /attempts/{id}/turns:
+    post:
+      summary: Send a staff turn, receive the guest turn
+      description: |
+        No score is returned mid-attempt. BARS anchors describe an overall
+        behavioural pattern, and per-turn scoring would teach staff to game
+        individual lines.
+      parameters:
+        - $ref: '#/components/parameters/Id'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [content]
+              properties:
+                content: { type: string, minLength: 1 }
+      responses:
+        '200':
+          description: The guest responds
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  turn_index:      { type: integer }
+                  guest:
+                    type: object
+                    properties:
+                      content: { type: string }
+                      mood:    { type: string }
+                  turns_remaining: { type: integer }
+                  can_complete:    { type: boolean }
+
+  /attempts/{id}/complete:
+    post:
+      summary: End the attempt and trigger scoring
+      parameters:
+        - $ref: '#/components/parameters/Id'
+        - $ref: '#/components/parameters/IdempotencyKey'
+      responses:
+        '200':
+          description: Scored
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  scores:
+                    type: array
+                    items: { $ref: '#/components/schemas/DimensionScore' }
+
+  # ------------------------------------------------------- observation (5)
+  /observations:
+    post:
+      summary: Log a floor observation
+      description: |
+        Must complete in under 20 seconds of manager time. Note that
+        `unlocked_practice_history` appears in the RESPONSE, never before the
+        request: the manager's own judgement is captured first, and only then
+        does the system reveal what it thinks. That ordering is what makes the
+        transfer gap a valid measurement rather than an echo.
+      parameters:
+        - $ref: '#/components/parameters/IdempotencyKey'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/ObservationInput' }
+      responses:
+        '201':
+          description: Logged; a recommendation is now generating
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:                         { type: string, format: uuid }
+                  unlocked_practice_history:  { type: boolean }
+                  recommendation_id:          { type: string, format: uuid }
+                  recommendation_status:      { type: string }
+
+  /staff/{id}/scores:
+    get:
+      summary: Read scores for a staff member
+      description: |
+        Gated when `source=practice`. A manager who has not logged their own
+        observation of this person receives 409, not 403: it is a sequencing
+        rule, not a permission failure, and the message explains why.
+      parameters:
+        - $ref: '#/components/parameters/Id'
+        - name: source
+          in: query
+          schema: { type: string, enum: [practice, floor] }
+      responses:
+        '200':
+          description: Scores
+        '409':
+          description: Observation required first
+          content:
+            application/problem+json:
+              schema: { $ref: '#/components/schemas/Problem' }
+
+  /staff/{id}/gap:
+    get:
+      summary: Transfer gap, quadrant and trend per dimension
+      parameters:
+        - $ref: '#/components/parameters/Id'
+      responses:
+        '200':
+          description: Per-dimension gap
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  staff_id:    { type: string, format: uuid }
+                  computed_at: { type: string, format: date-time }
+                  dimensions:
+                    type: array
+                    items: { $ref: '#/components/schemas/Gap' }
+                  insufficient_evidence:
+                    type: array
+                    items: { type: string }
+
+  # --------------------------------------------------- coaching (6-7)
+  /recommendations:
+    get:
+      summary: The manager's verify queue
+      responses:
+        '200': { description: Pending recommendations }
+
+  /recommendations/{id}:
+    get:
+      summary: Full recommendation with citations inline
+      description: |
+        Citations are returned inline, never behind a second request. If
+        checking the evidence costs a round trip it will not happen, and the
+        Article 13 transparency claim becomes theoretical.
+      parameters:
+        - $ref: '#/components/parameters/Id'
+      responses:
+        '200':
+          description: Recommendation, or an abstention
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Recommendation' }
+
+  /recommendations/{id}/verify:
+    post:
+      summary: Confirm, correct or reject
+      description: |
+        Resumes the halted agent graph. The response returns the moved
+        calibration number, which is the demo's proof that human oversight
+        feeds back into measured accuracy.
+      parameters:
+        - $ref: '#/components/parameters/Id'
+        - $ref: '#/components/parameters/IdempotencyKey'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [verdict]
+              properties:
+                verdict:
+                  type: string
+                  enum: [confirmed, corrected, rejected]
+                dimension_verdicts:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      dimension:     { type: string }
+                      manager_level: { type: integer, minimum: 1, maximum: 5 }
+                reason:            { type: string }
+                seconds_to_decide: { type: integer }
+      responses:
+        '200':
+          description: Verified
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string }
+                  calibration_updated:
+                    $ref: '#/components/schemas/Calibration'
+                  escalation:
+                    $ref: '#/components/schemas/Escalation'
+
+  # ------------------------------------------------------- insight (8-9)
+  /insights/team:
+    get:
+      summary: k-anonymised cohort patterns
+      description: |
+        `suppressed` is deliberately visible. Telling a manager that two
+        patterns were hidden because the group was too small demonstrates the
+        control is working, rather than silently omitting them.
+      responses:
+        '200':
+          description: Patterns
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  k_threshold: { type: integer, example: 5 }
+                  patterns:
+                    type: array
+                    items: { $ref: '#/components/schemas/CohortPattern' }
+                  suppressed:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        reason: { type: string }
+                        count:  { type: integer }
+
+  /calibration:
+    get:
+      summary: Agreement rate per behavioural dimension
+      responses:
+        '200':
+          description: Calibration, including where we are weak
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Calibration' }
+
+components:
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  parameters:
+    Id:
+      name: id
+      in: path
+      required: true
+      schema: { type: string, format: uuid }
+    IdempotencyKey:
+      name: Idempotency-Key
+      in: header
+      required: true
+      description: |
+        Required on every endpoint that spends model tokens or writes a
+        decision. Without it a double tap on hotel wifi produces two scoring
+        runs, two recommendations for one observation, and two entries in the
+        calibration record, which silently corrupts the accuracy number we
+        plan to show on stage.
+      schema: { type: string, minLength: 8 }
+
+  schemas:
+
+    DebriefStatus:
+      type: string
+      enum: [uploaded, transcribed, redacted, extracted, failed]
+
+    Debrief:
+      type: object
+      properties:
+        id:         { type: string, format: uuid }
+        status:     { $ref: '#/components/schemas/DebriefStatus' }
+        transcript: { type: string, description: Redacted. Audio is deleted. }
+        incident:
+          type: object
+          properties:
+            situation_type:
+              type: string
+              enum: [service_delay, order_error, service_delay_and_order_error,
+                     room_not_ready, billing_dispute, noise_complaint,
+                     booking_error, special_request_failure, other]
+            guest_emotion:
+              type: string
+              enum: [calm, frustrated, angry, upset, resigned]
+            staff_actions: { type: array, items: { type: string } }
+            outcome:
+              type: string
+              enum: [resolved, partially_resolved, unresolved, escalated]
+        standard:
+          description: The hotel's own clause for this situation, cited.
+          type: object
+          properties:
+            chunk_id:     { type: string, format: uuid }
+            document:     { type: string }
+            section_path: { type: string }
+            step_number:  { type: integer, nullable: true }
+            excerpt:      { type: string }
+            why_shown:    { type: string }
+
+    DimensionScore:
+      type: object
+      properties:
+        dimension:     { type: string }
+        level:
+          type: integer
+          nullable: true
+          minimum: 1
+          maximum: 5
+          description: 1..5, or null when the dimension is not evidenced.
+        evidence_span: { type: string }
+        anchor_matched: { type: string }
+
+    Gap:
+      type: object
+      properties:
+        dimension:     { type: string }
+        practice_mean: { type: number, nullable: true }
+        practice_n:    { type: integer }
+        floor_mean:    { type: number, nullable: true }
+        floor_n:       { type: integer }
+        gap:           { type: number, nullable: true }
+        quadrant:
+          type: string
+          nullable: true
+          enum: [competent, blocked, recalibrate, skill_gap]
+        reading:       { type: string }
+
+    ObservationInput:
+      type: object
+      required: [staff_id, observed_at, context, what_happened, ratings]
+      properties:
+        staff_id:      { type: string, format: uuid }
+        source:
+          type: string
+          enum: [manager, mystery_guest, peer, self]
+          default: manager
+        observed_at:   { type: string, format: date-time }
+        context:       { type: string }
+        what_happened:
+          type: string
+          description: |
+            Factual and specific. The property's own GDPR standard requires
+            notes be "relevant and to the facts, no personal opinion", and the
+            UI should prompt for what was observed rather than what the
+            manager concluded.
+        ratings:
+          type: array
+          items:
+            type: object
+            properties:
+              dimension: { type: string }
+              level:     { type: integer, nullable: true, minimum: 1, maximum: 5 }
+
+    Citation:
+      type: object
+      properties:
+        kind:
+          type: string
+          enum: [attempt_turn, observation, sop_chunk, rubric_anchor, metric]
+        claim:       { type: string }
+        source_ref:  { type: string }
+        quoted_span: { type: string }
+
+    Recommendation:
+      type: object
+      properties:
+        id:     { type: string, format: uuid }
+        status:
+          type: string
+          enum: [pending_verify, confirmed, corrected, rejected, abstained]
+        classification:
+          type: string
+          nullable: true
+          enum: [behavioural, process, policy]
+        headline:         { type: string }
+        body:             { type: string }
+        suggested_action: { type: string }
+        calibration:      { $ref: '#/components/schemas/Calibration' }
+        citations:
+          type: array
+          items: { $ref: '#/components/schemas/Citation' }
+        abstain_reason:
+          type: string
+          description: Populated when status is abstained. Says what is missing.
+        what_would_help:
+          type: array
+          items:
+            type: object
+            properties:
+              action:    { type: string }
+              dimension: { type: string }
+        trace_id: { type: string }
+
+    Calibration:
+      type: object
+      properties:
+        dimension:      { type: string }
+        agreement_rate: { type: number, nullable: true }
+        lower:          { type: number, nullable: true }
+        upper:          { type: number, nullable: true }
+        sample_size:    { type: integer }
+        state:
+          type: string
+          enum: [unmeasured, provisional, reliable, uncertain, unreliable]
+        advice:         { type: string }
+
+    CohortPattern:
+      type: object
+      properties:
+        id:             { type: string, format: uuid }
+        classification: { type: string, enum: [behavioural, process, policy] }
+        staff_count:    { type: integer, minimum: 5 }
+        dimension:      { type: string }
+        description:    { type: string }
+        suggested_action: { type: string }
+        route:          { type: string, enum: [manager, ld_hr, operations] }
+
+    Escalation:
+      type: object
+      properties:
+        id:       { type: string, format: uuid }
+        route:    { type: string, enum: [manager, ld_hr, operations] }
+        severity: { type: integer, minimum: 1, maximum: 3 }
+        rule_id:
+          type: string
+          description: |
+            Which deterministic rule fired. Persisted so routing is explainable
+            to a works council. "Rule RC-SEVERE fired" is an explanation;
+            "the model decided" is not.
+        summary:  { type: string }
+
+    Problem:
+      description: RFC 9457 problem+json
+      type: object
+      properties:
+        type:     { type: string }
+        title:    { type: string }
+        status:   { type: integer }
+        detail:   { type: string }
+        instance: { type: string }
+        trace_id: { type: string }
