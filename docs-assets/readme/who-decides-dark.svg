@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430"
+     viewBox="0 0 1200 430" role="img">
+<style>
+  .bg   { fill: #0D1524; }
+  .pan  { fill: #172236; stroke: #2A3852; stroke-width: 1; }
+  .pan2 { fill: #1F2C44; stroke: none; }
+  text  { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+  .h1   { fill: #FFFFFF; font-size: 56px; font-weight: 700; }
+  .h2   { fill: #FFFFFF; font-size: 26px; font-weight: 700; }
+  .h3   { fill: #FFFFFF; font-size: 16px; font-weight: 700; }
+  .tag  { fill: #18A9B8; font-size: 25px; font-style: italic;
+           font-family: Georgia,'Times New Roman',serif; }
+  .body { fill: #C3CEDF; font-size: 16px; }
+  .mute { fill: #8FA0BC; font-size: 13px; }
+  .cap  { fill: #8FA0BC; font-size: 14px; }
+  .num  { font-size: 30px; font-weight: 700; }
+  .lbl  { fill: #8FA0BC; font-size: 12px; letter-spacing: 1.1px;
+           font-weight: 600; }
+  .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 13px; fill: #C3CEDF; }
+</style>
+<rect class="bg" width="1200" height="430" rx="10"/>
+
+<text x="60" y="52" class="h2">Who actually decides</text>
+<text x="60" y="80" class="cap">A typical run, as recorded in the trace. Not a claim: /glassbox replays it live.</text>
+<rect x="60" y="118" width="80" height="58" rx="8" fill="#18A9B8"/>
+<text x="100" y="145" text-anchor="middle"
+      style="font-size:12px;font-weight:700" fill="#0D1524">CODE</text>
+<text x="100" y="163" text-anchor="middle"
+      style="font-size:11px" fill="#0D1524">step 1</text>
+<rect x="156" y="118" width="80" height="58" rx="8" fill="#18A9B8"/>
+<text x="196" y="145" text-anchor="middle"
+      style="font-size:12px;font-weight:700" fill="#0D1524">CODE</text>
+<text x="196" y="163" text-anchor="middle"
+      style="font-size:11px" fill="#0D1524">step 2</text>
+<rect x="252" y="118" width="80" height="58" rx="8" fill="#18A9B8"/>
+<text x="292" y="145" text-anchor="middle"
+      style="font-size:12px;font-weight:700" fill="#0D1524">CODE</text>
+<text x="292" y="163" text-anchor="middle"
+      style="font-size:11px" fill="#0D1524">step 3</text>
+<rect x="348" y="118" width="80" height="58" rx="8" fill="#18A9B8"/>
+<text x="388" y="145" text-anchor="middle"
+      style="font-size:12px;font-weight:700" fill="#0D1524">CODE</text>
+<text x="388" y="163" text-anchor="middle"
+      style="font-size:11px" fill="#0D1524">step 4</text>
+<rect x="444" y="118" width="80" height="58" rx="8" fill="#18A9B8"/>
+<text x="484" y="145" text-anchor="middle"
+      style="font-size:12px;font-weight:700" fill="#0D1524">CODE</text>
+<text x="484" y="163" text-anchor="middle"
+      style="font-size:11px" fill="#0D1524">step 5</text>
+<rect x="540" y="118" width="80" height="58" rx="8" fill="#18A9B8"/>
+<text x="580" y="145" text-anchor="middle"
+      style="font-size:12px;font-weight:700" fill="#0D1524">CODE</text>
+<text x="580" y="163" text-anchor="middle"
+      style="font-size:11px" fill="#0D1524">step 6</text>
+<rect x="636" y="118" width="80" height="58" rx="8" fill="#9B87D4"/>
+<text x="676" y="145" text-anchor="middle"
+      style="font-size:12px;font-weight:700" fill="#0D1524">MODEL</text>
+<text x="676" y="163" text-anchor="middle"
+      style="font-size:11px" fill="#0D1524">1 call</text>
+<rect x="732" y="118" width="80" height="58" rx="8" fill="#18A9B8"/>
+<text x="772" y="145" text-anchor="middle"
+      style="font-size:12px;font-weight:700" fill="#0D1524">CODE</text>
+<text x="772" y="163" text-anchor="middle"
+      style="font-size:11px" fill="#0D1524">step 7</text>
+<text x="60" y="206" class="mute">Seven decisions by code, one by the model, and that one picks from a list the code had already narrowed.</text>
+<line x1="60" y1="228" x2="1140" y2="228" stroke="#2A3852" stroke-width="1"/>
+<text x="60" y="264" class="h3" style="font-size:18px">Then four checks, before a single word reaches a human</text>
+<rect x="60" y="284" width="262" height="82" rx="8" class="pan"/>
+<circle cx="86" cy="312" r="11" fill="#3DD6A0"/>
+<text x="86" y="317" text-anchor="middle"
+      style="font-size:13px;font-weight:700" fill="#0D1524">&#10003;</text>
+<text x="108" y="317" class="h3" style="font-size:14px">Source exists</text>
+<text x="78" y="344" class="mute">the cited id is in the bundle</text>
+<rect x="342" y="284" width="262" height="82" rx="8" class="pan"/>
+<circle cx="368" cy="312" r="11" fill="#3DD6A0"/>
+<text x="368" y="317" text-anchor="middle"
+      style="font-size:13px;font-weight:700" fill="#0D1524">&#10003;</text>
+<text x="390" y="317" class="h3" style="font-size:14px">Span is real</text>
+<text x="360" y="344" class="mute">the sentence is in that document</text>
+<rect x="624" y="284" width="262" height="82" rx="8" class="pan"/>
+<circle cx="650" cy="312" r="11" fill="#3DD6A0"/>
+<text x="650" y="317" text-anchor="middle"
+      style="font-size:13px;font-weight:700" fill="#0D1524">&#10003;</text>
+<text x="672" y="317" class="h3" style="font-size:14px">Both streams</text>
+<text x="642" y="344" class="mute">one practice and one floor cite</text>
+<rect x="906" y="284" width="262" height="82" rx="8" class="pan"/>
+<circle cx="932" cy="312" r="11" fill="#3DD6A0"/>
+<text x="932" y="317" text-anchor="middle"
+      style="font-size:13px;font-weight:700" fill="#0D1524">&#10003;</text>
+<text x="954" y="317" class="h3" style="font-size:14px">No crossover</text>
+<text x="924" y="344" class="mute">no evidence from another person</text>
+<text x="60" y="400" class="cap">Fail any one and it does not guess. It abstains and names the evidence it could not find.</text>
+</svg>

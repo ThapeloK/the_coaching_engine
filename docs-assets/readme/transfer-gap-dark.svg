@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540"
+     viewBox="0 0 1200 540" role="img">
+<style>
+  .bg   { fill: #0D1524; }
+  .pan  { fill: #172236; stroke: #2A3852; stroke-width: 1; }
+  .pan2 { fill: #1F2C44; stroke: none; }
+  text  { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+  .h1   { fill: #FFFFFF; font-size: 56px; font-weight: 700; }
+  .h2   { fill: #FFFFFF; font-size: 26px; font-weight: 700; }
+  .h3   { fill: #FFFFFF; font-size: 16px; font-weight: 700; }
+  .tag  { fill: #18A9B8; font-size: 25px; font-style: italic;
+           font-family: Georgia,'Times New Roman',serif; }
+  .body { fill: #C3CEDF; font-size: 16px; }
+  .mute { fill: #8FA0BC; font-size: 13px; }
+  .cap  { fill: #8FA0BC; font-size: 14px; }
+  .num  { font-size: 30px; font-weight: 700; }
+  .lbl  { fill: #8FA0BC; font-size: 12px; letter-spacing: 1.1px;
+           font-weight: 600; }
+  .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 13px; fill: #C3CEDF; }
+</style>
+<rect class="bg" width="1200" height="540" rx="10"/>
+
+<text x="60" y="52" class="h2">The transfer gap</text>
+<text x="60" y="80" class="cap">Two independent readings of one person. Where they disagree is the diagnosis.</text>
+<rect x="250" y="112" width="280" height="150"
+      fill="#172236"
+      stroke="#2A3852" stroke-width="1"/>
+<text x="390.0" y="172" text-anchor="middle" class="h3" fill="#9B87D4">RECALIBRATE</text>
+<text x="390.0" y="200" text-anchor="middle" class="mute">Our rubric is wrong,</text>
+<text x="390.0" y="220" text-anchor="middle" class="mute">not the person</text>
+<rect x="530" y="112" width="280" height="150"
+      fill="#172236"
+      stroke="#2A3852" stroke-width="1"/>
+<text x="670.0" y="172" text-anchor="middle" class="h3" fill="#3DD6A0">COMPETENT</text>
+<text x="670.0" y="200" text-anchor="middle" class="mute">They can do it.</text>
+<text x="670.0" y="220" text-anchor="middle" class="mute">Stretch them</text>
+<rect x="250" y="262" width="280" height="150"
+      fill="#172236"
+      stroke="#2A3852" stroke-width="1"/>
+<text x="390.0" y="322" text-anchor="middle" class="h3" fill="#18A9B8">SKILL GAP</text>
+<text x="390.0" y="350" text-anchor="middle" class="mute">Genuine gap. The only</text>
+<text x="390.0" y="370" text-anchor="middle" class="mute">quadrant training fixes</text>
+<rect x="530" y="262" width="280" height="150"
+      fill="#3A2A12"
+      stroke="#F0A339" stroke-width="2.5"/>
+<text x="670.0" y="322" text-anchor="middle" class="h3" fill="#F0A339">BLOCKED</text>
+<text x="670.0" y="350" text-anchor="middle" class="mute">They already know how.</text>
+<text x="670.0" y="370" text-anchor="middle" class="mute">Do NOT send training</text>
+<text x="530" y="444" text-anchor="middle" class="lbl">PRACTICE SCORE &#8594;</text>
+<text x="0" y="0" class="lbl" transform="translate(224,262) rotate(-90)"
+      text-anchor="middle">FLOOR OBSERVATION &#8594;</text>
+<rect x="880" y="118" width="272" height="88" rx="8" class="pan"/>
+<rect x="898" y="138" width="5" height="48" rx="2.5" fill="#18A9B8"/>
+<text x="916" y="152" class="lbl" fill="#18A9B8">STREAM 1 · PRACTICE</text>
+<text x="916" y="174" class="mute">A guest scenario, scored against</text>
+<text x="916" y="192" class="mute">the hotel's own rubric.</text>
+<rect x="880" y="222" width="272" height="88" rx="8" class="pan"/>
+<rect x="898" y="242" width="5" height="48" rx="2.5" fill="#F0A339"/>
+<text x="916" y="256" class="lbl" fill="#F0A339">STREAM 2 · THE FLOOR</text>
+<text x="916" y="278" class="mute">What the manager actually saw,</text>
+<text x="916" y="296" class="mute">logged before they see stream 1.</text>
+<rect x="880" y="326" width="272" height="88" rx="8" class="pan"/>
+<rect x="898" y="346" width="5" height="48" rx="2.5" fill="#9B87D4"/>
+<text x="916" y="360" class="lbl" fill="#9B87D4">THE GAP</text>
+<text x="916" y="382" class="mute">Two readings, one person, one</text>
+<text x="916" y="400" class="mute">dimension. The disagreement.</text>
+<text x="60" y="490" class="cap">Nobody else can see the amber box. Every other platform watches the simulator</text>
+<text x="60" y="510" class="cap">only, so the teal answer is the only answer it is able to give.</text>
+</svg>

@@ -1,0 +1,139 @@
+{
+  "base": "https://naic-2026-coaching-engine.vercel.app",
+  "captured": "2026-09-11 17:07",
+  "shots": [
+    {
+      "n": 1,
+      "file": "01-landing.png",
+      "name": "landing",
+      "caption": "The front door",
+      "note": "Two ways in, one per role. Nobody logs in: this is a demo build and identity is chosen here instead."
+    },
+    {
+      "n": 2,
+      "file": "02-manager-overview.png",
+      "name": "manager-overview",
+      "caption": "Manager console, as Marta",
+      "note": "The radar compares practice against the floor. The queue is what the agent has drafted and is holding."
+    },
+    {
+      "n": 3,
+      "file": "03-verify-queue.png",
+      "name": "verify-queue",
+      "caption": "The verify queue",
+      "note": "Every card is one recommendation about one person. Abstentions are shown too, rather than hidden."
+    },
+    {
+      "n": 4,
+      "file": "04-verify-detail.png",
+      "name": "verify-detail",
+      "caption": "One recommendation, opened",
+      "note": "The claim, the evidence behind each part of it, and the three verdicts. Nothing routes anywhere until one is chosen."
+    },
+    {
+      "n": 5,
+      "file": "05-transfer-gap.png",
+      "name": "transfer-gap",
+      "caption": "The transfer gap, per person",
+      "note": "The product in one screen. Strong in practice and weak on the floor is BLOCKED, and more training will not fix it."
+    },
+    {
+      "n": 6,
+      "file": "06-team-insights.png",
+      "name": "team-insights",
+      "caption": "Team patterns",
+      "note": "Only patterns shared by five or more people are shown. The count of what was withheld is displayed rather than quietly dropped."
+    },
+    {
+      "n": 7,
+      "file": "07-log-observation.png",
+      "name": "log-observation",
+      "caption": "Logging what the manager saw",
+      "note": "This is the gate. Until this is submitted for a person, their practice scores stay hidden from the manager."
+    },
+    {
+      "n": 8,
+      "file": "08-staff-home.png",
+      "name": "staff-home",
+      "caption": "The staff app, as Diego",
+      "note": "Built for a phone at the end of a shift. No scores on this screen, deliberately."
+    },
+    {
+      "n": 9,
+      "file": "09-practice-list.png",
+      "name": "practice-list",
+      "caption": "Choosing a scenario",
+      "note": "Scenarios built from this property's own standards. One marked personal comes from that staff member's own shift."
+    },
+    {
+      "n": 10,
+      "file": "10-practice-open.png",
+      "name": "practice-open",
+      "caption": "The guest opens",
+      "note": "A live model, not a script. The line is generated for this attempt and can be played aloud."
+    },
+    {
+      "n": 11,
+      "file": "11-practice-typing.png",
+      "name": "practice-typing",
+      "caption": "The staff member replies",
+      "note": "Typed here, or dictated with the microphone. What matters is what they say, not how it was entered."
+    },
+    {
+      "n": 12,
+      "file": "12-practice-reply.png",
+      "name": "practice-reply",
+      "caption": "The guest reacts to what was said",
+      "note": "Acknowledging the problem first makes the guest soften. Leading with compensation makes them push back. That reaction is the thing being trained."
+    },
+    {
+      "n": 13,
+      "file": "13-practice-result.png",
+      "name": "practice-result",
+      "caption": "The conversation is scored",
+      "note": "Scored once, over the whole exchange, not per line. Each level comes back with the exact words that earned it, and never as a number."
+    },
+    {
+      "n": 14,
+      "file": "14-staff-history.png",
+      "name": "staff-history",
+      "caption": "What the staff member sees about themselves",
+      "note": "Their own record, in words rather than numbers. A frontline worker reads 2 out of 5 as a verdict on them."
+    },
+    {
+      "n": 15,
+      "file": "15-glassbox.png",
+      "name": "glassbox",
+      "caption": "The glass box",
+      "note": "Three claims a judge can check rather than believe. Each button runs production code live."
+    },
+    {
+      "n": 16,
+      "file": "16-glassbox-trace.png",
+      "name": "glassbox-trace",
+      "caption": "Every step, and who made it",
+      "note": "Code, model or database on every line. A typical run is seven decisions by code and one by the model, and that one was chosen from a list the code had already narrowed."
+    },
+    {
+      "n": 17,
+      "file": "17-glassbox-gate.png",
+      "name": "glassbox-gate",
+      "caption": "Trying to get a lie past the gate",
+      "note": "Nine fabrications, the kind a real model failure looks like. None reach a manager. The honest claim still passes."
+    },
+    {
+      "n": 18,
+      "file": "18-glassbox-rls.png",
+      "name": "glassbox-rls",
+      "caption": "One question, three people",
+      "note": "Identical SQL each time. A colleague reads nothing, the observing manager reads everything, L&D reads no individual practice scores."
+    },
+    {
+      "n": 19,
+      "file": "19-staff-phone.png",
+      "name": "staff-phone",
+      "caption": "The staff app on a phone",
+      "note": "This is where it actually gets used: a corridor, a back office, the end of a shift."
+    }
+  ]
+}
