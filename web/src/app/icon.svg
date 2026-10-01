@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- The mark, redrawn a touch heavier than the web version: a favicon is
+       rendered at 16 to 32 pixels and a 30-weight stroke closes up to mush at
+       that size, so the stroke is thicker and the circle slightly smaller. -->
+  <path d="M 142.43 57.57 A 62 62 0 1 0 63.87 151.13"
+        stroke="#0E7C86" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <path d="M 63.87 151.13 A 62 62 0 0 0 142.43 142.43"
+        stroke="#5B4B8A" stroke-width="34" fill="none" stroke-linecap="round"/>
+</svg>

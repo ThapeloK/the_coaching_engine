@@ -1,0 +1,368 @@
+/* Calm spa-boutique theme · warm cream + sand neutrals · single dusty sage accent · warm brown text */
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-sans);
+  --font-heading: var(--font-heading);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+  --shadow-card:
+    0 1px 2px oklch(0.2 0.01 90 / 0.06),
+    0 4px 16px -8px oklch(0.25 0.02 75 / 0.1);
+}
+
+:root {
+  color-scheme: light;
+  --background: oklch(0.97 0.012 90);
+  --foreground: oklch(0.33 0.025 60);
+  --card: oklch(0.995 0.005 92);
+  --card-foreground: oklch(0.33 0.025 60);
+  --popover: oklch(0.993 0.006 90);
+  --popover-foreground: oklch(0.33 0.025 60);
+  --primary: oklch(0.47 0.055 150);
+  --primary-foreground: oklch(0.985 0.01 95);
+  --secondary: oklch(0.905 0.02 85);
+  --secondary-foreground: oklch(0.4 0.03 60);
+  --muted: oklch(0.93 0.02 85);
+  --muted-foreground: oklch(0.47 0.026 66);
+  --accent: oklch(0.925 0.026 120);
+  --accent-foreground: oklch(0.42 0.03 60);
+  --destructive: oklch(0.52 0.09 35);
+  --border: oklch(0.89 0.02 80);
+  --input: oklch(0.89 0.02 80);
+  --ring: oklch(0.58 0.055 150);
+  --chart-1: oklch(0.65 0.07 150);
+  --chart-2: oklch(0.6 0.08 70);
+  --chart-3: oklch(0.62 0.07 40);
+  --chart-4: oklch(0.6 0.05 120);
+  --chart-5: oklch(0.62 0.045 85);
+  --radius: 0.75rem;
+  --sidebar: oklch(0.955 0.012 88);
+  --sidebar-foreground: oklch(0.33 0.025 60);
+  --sidebar-primary: oklch(0.47 0.055 150);
+  --sidebar-primary-foreground: oklch(0.985 0.01 95);
+  --sidebar-accent: oklch(0.9 0.02 85);
+  --sidebar-accent-foreground: oklch(0.4 0.03 60);
+  --sidebar-border: oklch(0.88 0.02 82);
+  --sidebar-ring: oklch(0.58 0.055 150);
+}
+
+.dark {
+  color-scheme: dark;
+  --background: oklch(0.24 0.02 60);
+  --foreground: oklch(0.945 0.02 90);
+  --card: oklch(0.285 0.02 62);
+  --card-foreground: oklch(0.945 0.02 90);
+  --popover: oklch(0.305 0.02 63);
+  --popover-foreground: oklch(0.945 0.02 90);
+  --primary: oklch(0.75 0.06 150);
+  --primary-foreground: oklch(0.2 0.02 55);
+  --secondary: oklch(0.32 0.02 65);
+  --secondary-foreground: oklch(0.9 0.015 90);
+  --muted: oklch(0.315 0.02 65);
+  --muted-foreground: oklch(0.71 0.025 75);
+  --accent: oklch(0.335 0.025 140);
+  --accent-foreground: oklch(0.9 0.02 90);
+  --destructive: oklch(0.7 0.09 35);
+  --border: oklch(0.88 0.025 80 / 15%);
+  --input: oklch(0.88 0.025 80 / 20%);
+  --ring: oklch(0.75 0.06 150 / 45%);
+  --chart-1: oklch(0.78 0.07 150);
+  --chart-2: oklch(0.8 0.08 75);
+  --chart-3: oklch(0.74 0.08 40);
+  --chart-4: oklch(0.74 0.06 120);
+  --chart-5: oklch(0.88 0.045 90);
+  --sidebar: oklch(0.2 0.02 55);
+  --sidebar-foreground: oklch(0.945 0.02 90);
+  --sidebar-primary: oklch(0.75 0.06 150);
+  --sidebar-primary-foreground: oklch(0.2 0.02 55);
+  --sidebar-accent: oklch(0.29 0.025 75);
+  --sidebar-accent-foreground: oklch(0.9 0.02 90);
+  --sidebar-border: oklch(0.88 0.025 80 / 10%);
+  --sidebar-ring: oklch(0.75 0.06 150 / 45%);
+}
+
+@keyframes msg-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@utility msg-in {
+  animation: msg-in 0.3s ease-out;
+}
+
+@keyframes hero-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@utility hero-enter {
+  animation: hero-enter 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@utility fade-up {
+  animation: fade-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@utility pop-in {
+  animation: pop-in 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* The glass box timeline.
+ *
+ * Steps arrive one after another rather than all at once, because the claim
+ * the page is answering is "this is canned". Watching the chain assemble, with
+ * each step sliding in from the spine it hangs off, is a more convincing
+ * answer than a sentence saying it is live. The delay is applied per step by
+ * the component, so the order is the order the agent actually ran in.
+ */
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@utility step-in {
+  animation: step-in 0.42s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* The dot on the spine lands after its row, so the eye follows the row in and
+ * then sees the marker snap into place. */
+@keyframes dot-in {
+  from {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@utility dot-in {
+  animation: dot-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes radar-draw {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@utility radar-draw {
+  stroke-dasharray: 100;
+  animation: radar-draw 1.2s ease-out 0.15s both;
+}
+
+@keyframes gradient-x {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@utility gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 6s ease infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@utility marquee {
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@utility pulse-soft {
+  animation: pulse-soft 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .msg-in,
+  .hero-enter,
+  .fade-up,
+  .pop-in,
+  .step-in,
+  .dot-in,
+  .radar-draw,
+  .gradient-x,
+  .marquee,
+  .pulse-soft {
+    animation: none;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    background-color: var(--background);
+    font-size: 16px;
+  }
+  body {
+    @apply bg-background text-foreground;
+    line-height: 1.6;
+    background-image:
+      radial-gradient(
+        60rem 30rem at 85% -5%,
+        oklch(0.68 0.06 150 / 9%),
+        transparent 65%
+      ),
+      radial-gradient(
+        50rem 28rem at -15% 15%,
+        oklch(0.7 0.05 60 / 7%),
+        transparent 60%
+      ),
+      radial-gradient(
+        44rem 26rem at 110% 105%,
+        oklch(0.78 0.06 80 / 6%),
+        transparent 60%
+      );
+  }
+  html {
+    @apply font-sans;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading), var(--font-sans);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+}
+/* ---------------------------------------------------------------------------
+   Touch targets.
+
+   A phone is a first-class client here: the staff app is meant to be used on
+   one mid-shift, and the mentor's note was that this has to work on a phone as
+   well as a laptop. Several controls were 24 to 34px tall, which is fine with
+   a mouse and fiddly with a thumb.
+
+   Scoped to a coarse pointer so nothing changes for someone on a laptop, and
+   expressed as min-height so it grows buttons and block links while leaving
+   links inside a sentence alone: min-height does not apply to a non-replaced
+   inline element, which is exactly the exemption WCAG 2.5.8 makes for them.
+   --------------------------------------------------------------------------- */
+@media (pointer: coarse) {
+  button,
+  summary,
+  [role="button"],
+  a[href]:not(:where(p, li, span, h1, h2, h3, h4, h5, h6) > a[href]) {
+    min-height: 40px;
+  }
+
+  /* Anything laid out as a row keeps its contents centred as it grows. */
+  button:where(.inline-flex, .flex),
+  a[href]:where(.inline-flex, .flex) {
+    align-items: center;
+  }
+}
