@@ -1,0 +1,1230 @@
+[
+  {
+    "id": "inc-001",
+    "staff_id": "staff-001",
+    "staff_name": "Diego",
+    "occurred_at": "2026-09-05",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "Had a guest in at three, room wasn't ready, [GUEST_NAME] was not happy at all. I said sorry and offered a drink at the bar but she just got more annoyed and in the end I got Marta. I honestly didn't know what I was allowed to give her.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-002",
+    "staff_id": "staff-002",
+    "staff_name": "Niamh",
+    "occurred_at": "2026-09-05",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "Arrival at half two, room still being turned. I explained and offered a drink at the bar. Guest asked what else I could do and I didn't have an answer so I went and found Marta.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-003",
+    "staff_id": "staff-003",
+    "staff_name": "Tomasz",
+    "occurred_at": "2026-09-06",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "[GUEST_NAME] came in early, room not ready, and I could tell straight away she'd had a long journey. Apologised, offered tea and coffee in the lounge, she wanted something more and I wasn't sure what I could authorise so I escalated it.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-004",
+    "staff_id": "staff-004",
+    "staff_name": "Rachel",
+    "occurred_at": "2026-09-04",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "Had a guest in at three, room wasn't ready, [GUEST_NAME] was not happy at all. I said sorry and offered to store the bags but she just got more annoyed and in the end I got Marta. I honestly didn't know what I was allowed to give her.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-005",
+    "staff_id": "staff-005",
+    "staff_name": "Kwame",
+    "occurred_at": "2026-09-06",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "Arrival at half two, room still being turned. I explained and offered a complimentary coffee. Guest asked what else I could do and I didn't have an answer so I went and found Marta.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-006",
+    "staff_id": "staff-006",
+    "staff_name": "Lucia",
+    "occurred_at": "2026-09-10",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "[GUEST_NAME] came in early, room not ready, and I could tell straight away she'd had a long journey. Apologised, offered a complimentary coffee, she wanted something more and I wasn't sure what I could authorise so I escalated it.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-007",
+    "staff_id": "staff-007",
+    "staff_name": "Sean",
+    "occurred_at": "2026-09-04",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "Had a guest in at three, room wasn't ready, [GUEST_NAME] was not happy at all. I said sorry and offered tea and coffee in the lounge but she just got more annoyed and in the end I got Marta. I honestly didn't know what I was allowed to give her.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-008",
+    "staff_id": "staff-008",
+    "staff_name": "Priya",
+    "occurred_at": "2026-09-07",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "Arrival at half two, room still being turned. I explained and offered to store the bags. Guest asked what else I could do and I didn't have an answer so I went and found Marta.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-009",
+    "staff_id": "staff-009",
+    "staff_name": "Andrei",
+    "occurred_at": "2026-09-10",
+    "situation_type": "room_not_ready",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "[GUEST_NAME] came in early, room not ready, and I could tell straight away she'd had a long journey. Apologised, offered tea and coffee in the lounge, she wanted something more and I wasn't sure what I could authorise so I escalated it.",
+    "dimensions_touched": [
+      "service_recovery",
+      "empathy"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-010",
+    "staff_id": "staff-001",
+    "staff_name": "Diego",
+    "occurred_at": "2026-08-17",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "offered_compensation",
+      "explained"
+    ],
+    "outcome": "resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-011",
+    "staff_id": "staff-001",
+    "staff_name": "Diego",
+    "occurred_at": "2026-09-08",
+    "situation_type": "system_down",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "resolved_self",
+      "offered_compensation"
+    ],
+    "outcome": "unresolved",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-012",
+    "staff_id": "staff-001",
+    "staff_name": "Diego",
+    "occurred_at": "2026-08-29",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "explained",
+      "resolved_self"
+    ],
+    "outcome": "resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-013",
+    "staff_id": "staff-002",
+    "staff_name": "Niamh",
+    "occurred_at": "2026-09-04",
+    "situation_type": "system_down",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "resolved_self",
+      "apologised"
+    ],
+    "outcome": "escalated",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-014",
+    "staff_id": "staff-002",
+    "staff_name": "Niamh",
+    "occurred_at": "2026-08-21",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "apologised",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-015",
+    "staff_id": "staff-002",
+    "staff_name": "Niamh",
+    "occurred_at": "2026-08-20",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "apologised",
+      "explained"
+    ],
+    "outcome": "unresolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-016",
+    "staff_id": "staff-002",
+    "staff_name": "Niamh",
+    "occurred_at": "2026-09-07",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "offered_compensation",
+      "apologised"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-017",
+    "staff_id": "staff-002",
+    "staff_name": "Niamh",
+    "occurred_at": "2026-08-22",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "escalated",
+      "resolved_self"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-018",
+    "staff_id": "staff-003",
+    "staff_name": "Tomasz",
+    "occurred_at": "2026-08-23",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "explained",
+      "resolved_self"
+    ],
+    "outcome": "escalated",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-019",
+    "staff_id": "staff-003",
+    "staff_name": "Tomasz",
+    "occurred_at": "2026-08-19",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "offered_compensation",
+      "escalated"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-020",
+    "staff_id": "staff-003",
+    "staff_name": "Tomasz",
+    "occurred_at": "2026-08-28",
+    "situation_type": "system_down",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "explained",
+      "offered_compensation"
+    ],
+    "outcome": "resolved",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-021",
+    "staff_id": "staff-003",
+    "staff_name": "Tomasz",
+    "occurred_at": "2026-08-29",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "offered_compensation",
+      "apologised"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-022",
+    "staff_id": "staff-003",
+    "staff_name": "Tomasz",
+    "occurred_at": "2026-08-28",
+    "situation_type": "system_down",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "apologised",
+      "escalated"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-023",
+    "staff_id": "staff-004",
+    "staff_name": "Rachel",
+    "occurred_at": "2026-08-24",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "offered_compensation",
+      "explained"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-024",
+    "staff_id": "staff-004",
+    "staff_name": "Rachel",
+    "occurred_at": "2026-08-29",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "apologised",
+      "offered_compensation"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-025",
+    "staff_id": "staff-004",
+    "staff_name": "Rachel",
+    "occurred_at": "2026-09-05",
+    "situation_type": "system_down",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "resolved_self",
+      "offered_compensation"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-026",
+    "staff_id": "staff-004",
+    "staff_name": "Rachel",
+    "occurred_at": "2026-08-16",
+    "situation_type": "system_down",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "resolved_self",
+      "explained"
+    ],
+    "outcome": "unresolved",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-027",
+    "staff_id": "staff-004",
+    "staff_name": "Rachel",
+    "occurred_at": "2026-08-25",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "escalated",
+      "resolved_self"
+    ],
+    "outcome": "escalated",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-028",
+    "staff_id": "staff-005",
+    "staff_name": "Kwame",
+    "occurred_at": "2026-09-01",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "apologised",
+      "escalated"
+    ],
+    "outcome": "unresolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-029",
+    "staff_id": "staff-005",
+    "staff_name": "Kwame",
+    "occurred_at": "2026-08-20",
+    "situation_type": "system_down",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "escalated",
+      "explained"
+    ],
+    "outcome": "escalated",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-030",
+    "staff_id": "staff-005",
+    "staff_name": "Kwame",
+    "occurred_at": "2026-08-17",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "resolved_self",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-031",
+    "staff_id": "staff-005",
+    "staff_name": "Kwame",
+    "occurred_at": "2026-08-26",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "escalated",
+      "apologised"
+    ],
+    "outcome": "resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-032",
+    "staff_id": "staff-005",
+    "staff_name": "Kwame",
+    "occurred_at": "2026-09-01",
+    "situation_type": "system_down",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "explained",
+      "offered_compensation"
+    ],
+    "outcome": "escalated",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-033",
+    "staff_id": "staff-006",
+    "staff_name": "Lucia",
+    "occurred_at": "2026-08-15",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "escalated",
+      "offered_compensation"
+    ],
+    "outcome": "resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-034",
+    "staff_id": "staff-006",
+    "staff_name": "Lucia",
+    "occurred_at": "2026-08-28",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "escalated",
+      "apologised"
+    ],
+    "outcome": "resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-035",
+    "staff_id": "staff-006",
+    "staff_name": "Lucia",
+    "occurred_at": "2026-08-24",
+    "situation_type": "system_down",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "apologised",
+      "escalated"
+    ],
+    "outcome": "unresolved",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-036",
+    "staff_id": "staff-006",
+    "staff_name": "Lucia",
+    "occurred_at": "2026-08-27",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "offered_compensation",
+      "apologised"
+    ],
+    "outcome": "escalated",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-037",
+    "staff_id": "staff-006",
+    "staff_name": "Lucia",
+    "occurred_at": "2026-08-27",
+    "situation_type": "system_down",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "apologised",
+      "escalated"
+    ],
+    "outcome": "unresolved",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-038",
+    "staff_id": "staff-007",
+    "staff_name": "Sean",
+    "occurred_at": "2026-08-28",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "explained",
+      "apologised"
+    ],
+    "outcome": "resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-039",
+    "staff_id": "staff-007",
+    "staff_name": "Sean",
+    "occurred_at": "2026-09-04",
+    "situation_type": "system_down",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "explained",
+      "resolved_self"
+    ],
+    "outcome": "escalated",
+    "transcript": "PMS went down during a busy check-in. Explained to everyone it'd take a bit longer and did them manually. People were mostly fine about it once I told them what was happening.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-040",
+    "staff_id": "staff-007",
+    "staff_name": "Sean",
+    "occurred_at": "2026-08-29",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "apologised",
+      "resolved_self"
+    ],
+    "outcome": "resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-041",
+    "staff_id": "staff-008",
+    "staff_name": "Priya",
+    "occurred_at": "2026-09-05",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "explained",
+      "offered_compensation"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-042",
+    "staff_id": "staff-008",
+    "staff_name": "Priya",
+    "occurred_at": "2026-08-15",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "explained",
+      "escalated"
+    ],
+    "outcome": "escalated",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-043",
+    "staff_id": "staff-008",
+    "staff_name": "Priya",
+    "occurred_at": "2026-08-26",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "resolved_self",
+      "offered_compensation"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-044",
+    "staff_id": "staff-009",
+    "staff_name": "Andrei",
+    "occurred_at": "2026-09-10",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "escalated",
+      "explained"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-045",
+    "staff_id": "staff-009",
+    "staff_name": "Andrei",
+    "occurred_at": "2026-09-09",
+    "situation_type": "noise_complaint",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "offered_compensation",
+      "resolved_self"
+    ],
+    "outcome": "resolved",
+    "transcript": "Guest rang down about noise from the function room. I apologised and said I'd look into it. Wasn't really sure what I could offer so I just said sorry again.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-006"
+  },
+  {
+    "id": "inc-046",
+    "staff_id": "staff-009",
+    "staff_name": "Andrei",
+    "occurred_at": "2026-08-21",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "apologised",
+      "explained"
+    ],
+    "outcome": "resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-047",
+    "staff_id": "staff-009",
+    "staff_name": "Andrei",
+    "occurred_at": "2026-09-06",
+    "situation_type": "billing_dispute",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "escalated",
+      "explained"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "[GUEST_NAME] checking out disputed a charge on the bill. I explained where it came from but he wasn't having it. I couldn't take it off myself so I called Marta.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-048",
+    "staff_id": "staff-010",
+    "staff_name": "Aoife",
+    "occurred_at": "2026-08-16",
+    "situation_type": "service_delay",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "offered_compensation",
+      "resolved_self"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Kitchen was backed up, table waiting nearly half an hour for mains. I kept going back to update them which helped a bit. Comped a round of coffees.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-049",
+    "staff_id": "staff-010",
+    "staff_name": "Aoife",
+    "occurred_at": "2026-09-01",
+    "situation_type": "allergen_query",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "offered_compensation",
+      "explained"
+    ],
+    "outcome": "escalated",
+    "transcript": "Guest asked about a nut allergy on one of the specials. I checked the folder but wasn't fully sure so I went to the kitchen. Took a while and they were waiting.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-050",
+    "staff_id": "staff-010",
+    "staff_name": "Aoife",
+    "occurred_at": "2026-09-09",
+    "situation_type": "service_delay",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "escalated",
+      "resolved_self"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Kitchen was backed up, table waiting nearly half an hour for mains. I kept going back to update them which helped a bit. Comped a round of coffees.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-051",
+    "staff_id": "staff-010",
+    "staff_name": "Aoife",
+    "occurred_at": "2026-08-25",
+    "situation_type": "allergen_query",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "explained",
+      "resolved_self"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Guest asked about a nut allergy on one of the specials. I checked the folder but wasn't fully sure so I went to the kitchen. Took a while and they were waiting.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-052",
+    "staff_id": "staff-010",
+    "staff_name": "Aoife",
+    "occurred_at": "2026-09-08",
+    "situation_type": "service_delay",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "resolved_self",
+      "apologised"
+    ],
+    "outcome": "escalated",
+    "transcript": "Kitchen was backed up, table waiting nearly half an hour for mains. I kept going back to update them which helped a bit. Comped a round of coffees.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-053",
+    "staff_id": "staff-011",
+    "staff_name": "Marek",
+    "occurred_at": "2026-09-08",
+    "situation_type": "service_delay",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "explained",
+      "apologised"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Kitchen was backed up, table waiting nearly half an hour for mains. I kept going back to update them which helped a bit. Comped a round of coffees.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-054",
+    "staff_id": "staff-011",
+    "staff_name": "Marek",
+    "occurred_at": "2026-08-14",
+    "situation_type": "service_delay_and_order_error",
+    "guest_emotion": "angry",
+    "staff_actions": [
+      "escalated",
+      "apologised"
+    ],
+    "outcome": "resolved",
+    "transcript": "Table [ROOM] waited about forty minutes and then the starter never came at all. I apologised and comped the dessert and let Marta know after.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-001"
+  },
+  {
+    "id": "inc-055",
+    "staff_id": "staff-011",
+    "staff_name": "Marek",
+    "occurred_at": "2026-08-30",
+    "situation_type": "allergen_query",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "apologised",
+      "resolved_self"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Guest asked about a nut allergy on one of the specials. I checked the folder but wasn't fully sure so I went to the kitchen. Took a while and they were waiting.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-056",
+    "staff_id": "staff-011",
+    "staff_name": "Marek",
+    "occurred_at": "2026-08-17",
+    "situation_type": "allergen_query",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "explained",
+      "resolved_self"
+    ],
+    "outcome": "unresolved",
+    "transcript": "Guest asked about a nut allergy on one of the specials. I checked the folder but wasn't fully sure so I went to the kitchen. Took a while and they were waiting.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-057",
+    "staff_id": "staff-012",
+    "staff_name": "Chloe",
+    "occurred_at": "2026-09-07",
+    "situation_type": "service_delay",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "explained",
+      "escalated"
+    ],
+    "outcome": "unresolved",
+    "transcript": "Kitchen was backed up, table waiting nearly half an hour for mains. I kept going back to update them which helped a bit. Comped a round of coffees.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-058",
+    "staff_id": "staff-012",
+    "staff_name": "Chloe",
+    "occurred_at": "2026-09-06",
+    "situation_type": "service_delay_and_order_error",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "apologised",
+      "resolved_self"
+    ],
+    "outcome": "unresolved",
+    "transcript": "Mains came out late and one was wrong. I said sorry straight away, took it back, and offered a complimentary coffee. Told Marta at the end of service.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-001"
+  },
+  {
+    "id": "inc-059",
+    "staff_id": "staff-012",
+    "staff_name": "Chloe",
+    "occurred_at": "2026-08-14",
+    "situation_type": "service_delay_and_order_error",
+    "guest_emotion": "resigned",
+    "staff_actions": [
+      "offered_compensation",
+      "explained"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Mains came out late and one was wrong. I said sorry straight away, took it back, and offered a complimentary coffee. Told Marta at the end of service.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-001"
+  },
+  {
+    "id": "inc-060",
+    "staff_id": "staff-012",
+    "staff_name": "Chloe",
+    "occurred_at": "2026-09-07",
+    "situation_type": "service_delay_and_order_error",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "resolved_self",
+      "explained"
+    ],
+    "outcome": "escalated",
+    "transcript": "Table [ROOM] waited about forty minutes and then the starter never came at all. I apologised and comped the dessert and let Marta know after.",
+    "dimensions_touched": [
+      "service_recovery"
+    ],
+    "grounding_chunk_id": "chunk-001"
+  },
+  {
+    "id": "inc-061",
+    "staff_id": "staff-012",
+    "staff_name": "Chloe",
+    "occurred_at": "2026-08-25",
+    "situation_type": "allergen_query",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "escalated",
+      "apologised"
+    ],
+    "outcome": "resolved",
+    "transcript": "Guest asked about a nut allergy on one of the specials. I checked the folder but wasn't fully sure so I went to the kitchen. Took a while and they were waiting.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-062",
+    "staff_id": "staff-013",
+    "staff_name": "Bogdan",
+    "occurred_at": "2026-08-23",
+    "situation_type": "allergen_query",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "escalated",
+      "explained"
+    ],
+    "outcome": "escalated",
+    "transcript": "Guest asked about a nut allergy on one of the specials. I checked the folder but wasn't fully sure so I went to the kitchen. Took a while and they were waiting.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-063",
+    "staff_id": "staff-013",
+    "staff_name": "Bogdan",
+    "occurred_at": "2026-08-21",
+    "situation_type": "service_delay",
+    "guest_emotion": "upset",
+    "staff_actions": [
+      "explained",
+      "offered_compensation"
+    ],
+    "outcome": "resolved",
+    "transcript": "Kitchen was backed up, table waiting nearly half an hour for mains. I kept going back to update them which helped a bit. Comped a round of coffees.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": "chunk-015"
+  },
+  {
+    "id": "inc-064",
+    "staff_id": "staff-013",
+    "staff_name": "Bogdan",
+    "occurred_at": "2026-08-21",
+    "situation_type": "allergen_query",
+    "guest_emotion": "calm",
+    "staff_actions": [
+      "resolved_self",
+      "apologised"
+    ],
+    "outcome": "resolved",
+    "transcript": "Guest asked about a nut allergy on one of the specials. I checked the folder but wasn't fully sure so I went to the kitchen. Took a while and they were waiting.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": null
+  },
+  {
+    "id": "inc-065",
+    "staff_id": "staff-013",
+    "staff_name": "Bogdan",
+    "occurred_at": "2026-08-15",
+    "situation_type": "allergen_query",
+    "guest_emotion": "frustrated",
+    "staff_actions": [
+      "offered_compensation",
+      "explained"
+    ],
+    "outcome": "partially_resolved",
+    "transcript": "Guest asked about a nut allergy on one of the specials. I checked the folder but wasn't fully sure so I went to the kitchen. Took a while and they were waiting.",
+    "dimensions_touched": [
+      "communication",
+      "anticipation"
+    ],
+    "grounding_chunk_id": null
+  }
+]

@@ -1,0 +1,967 @@
+[
+  {
+    "id": "chunk-001",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > A.L.O.U.D. > Step 1: Apologies",
+    "ordinal": 1,
+    "step_number": 1,
+    "content": "A - Apologies. Apologise sincerely before commenting further.",
+    "dimensions": [
+      "service_recovery",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-002",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > A.L.O.U.D. > Step 2: Listen without interrupting",
+    "ordinal": 2,
+    "step_number": 2,
+    "content": "L - Listen without interrupting. Let the guest finish. Do not interrupt.",
+    "dimensions": [
+      "service_recovery",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-003",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > A.L.O.U.D. > Step 3: Own the problem",
+    "ordinal": 3,
+    "step_number": 3,
+    "content": "O - Own the problem. Take ownership rather than deflecting to another department.",
+    "dimensions": [
+      "service_recovery",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-004",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > A.L.O.U.D. > Step 4: Understand the difficulty",
+    "ordinal": 4,
+    "step_number": 4,
+    "content": "U - Understand the difficulty. Confirm you understand what the guest actually experienced.",
+    "dimensions": [
+      "service_recovery",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-005",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > A.L.O.U.D. > Step 5: Deal with matter to the guest's satisfaction",
+    "ordinal": 5,
+    "step_number": 5,
+    "content": "D - Deal with matter to the guest's satisfaction. Agree and deliver a resolution.",
+    "dimensions": [
+      "service_recovery",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-006",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 1",
+    "ordinal": 6,
+    "step_number": 1,
+    "content": "Listen attentively without interrupting; stop current task, make eye contact.",
+    "dimensions": [
+      "service_recovery",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-007",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 2",
+    "ordinal": 7,
+    "step_number": 2,
+    "content": "Stay calm - the guest's frustration is not about you personally.",
+    "dimensions": [
+      "service_recovery",
+      "composure"
+    ]
+  },
+  {
+    "id": "chunk-008",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 3",
+    "ordinal": 8,
+    "step_number": 3,
+    "content": "Apologise sincerely before commenting further, regardless of fault.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-009",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 4",
+    "ordinal": 9,
+    "step_number": 4,
+    "content": "Repeat the complaint back, acknowledging the guest's feelings.",
+    "dimensions": [
+      "service_recovery",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-010",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 5",
+    "ordinal": 10,
+    "step_number": 5,
+    "content": "Show empathy explicitly.",
+    "dimensions": [
+      "service_recovery",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-011",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 6",
+    "ordinal": 11,
+    "step_number": 6,
+    "content": "Uncover what resolution the guest actually expects.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-012",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 7",
+    "ordinal": 12,
+    "step_number": 7,
+    "content": "Discuss and agree a solution together.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-013",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 8",
+    "ordinal": 13,
+    "step_number": 8,
+    "content": "Take action and follow through to confirm the guest is satisfied.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-014",
+    "document_id": "sop-foh-complaint",
+    "document_title": "Complaint Handling Procedure",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "front_office",
+    "section_path": "Complaint Handling > Step 9",
+    "ordinal": 14,
+    "step_number": 9,
+    "content": "If escalation is needed: ask the guest to take a seat, brief the manager with full details, and the manager on duty logs it in the complaint log.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-015",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 1",
+    "ordinal": 15,
+    "step_number": 1,
+    "content": "Welcome guest whilst making good eye contact with a genuine smile.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-016",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 2",
+    "ordinal": 16,
+    "step_number": 2,
+    "content": "Communicate with guest in order to establish a relationship.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-017",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 3",
+    "ordinal": 17,
+    "step_number": 3,
+    "content": "Never say 'No' - offer an appropriate alternative.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-018",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 4",
+    "ordinal": 18,
+    "step_number": 4,
+    "content": "Be yourself whilst portraying a professional manner, friendly and willing to help.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-019",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 5",
+    "ordinal": 19,
+    "step_number": 5,
+    "content": "Anticipate and delight by understanding guest needs.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-020",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 6",
+    "ordinal": 20,
+    "step_number": 6,
+    "content": "Commitment to making it right.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-021",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 7",
+    "ordinal": 21,
+    "step_number": 7,
+    "content": "Empathy is key when dealing with issues.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-022",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 8",
+    "ordinal": 22,
+    "step_number": 8,
+    "content": "An engaged team radiates a positive environment.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-023",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 9",
+    "ordinal": 23,
+    "step_number": 9,
+    "content": "Respect guest privacy and confidentiality at all times.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-024",
+    "document_id": "sop-service-promise",
+    "document_title": "The Service Promise",
+    "source_ref": "S2",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Service Promise > Principle 10",
+    "ordinal": 24,
+    "step_number": 10,
+    "content": "A positive farewell is an opportunity for another hello.",
+    "dimensions": [
+      "communication",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-025",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Prohibited > 1",
+    "ordinal": 25,
+    "step_number": null,
+    "content": "Never chew gum while on duty.",
+    "dimensions": [
+      "composure"
+    ]
+  },
+  {
+    "id": "chunk-026",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Prohibited > 2",
+    "ordinal": 26,
+    "step_number": null,
+    "content": "Never refer to a guest by their room number.",
+    "dimensions": [
+      "composure"
+    ]
+  },
+  {
+    "id": "chunk-027",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Prohibited > 3",
+    "ordinal": 27,
+    "step_number": null,
+    "content": "Do not shout across guests to other employees.",
+    "dimensions": [
+      "composure"
+    ]
+  },
+  {
+    "id": "chunk-028",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Prohibited > 4",
+    "ordinal": 28,
+    "step_number": null,
+    "content": "Never argue with another employee in front of a guest.",
+    "dimensions": [
+      "composure"
+    ]
+  },
+  {
+    "id": "chunk-029",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Prohibited > 5",
+    "ordinal": 29,
+    "step_number": null,
+    "content": "No mobile phones while on duty.",
+    "dimensions": [
+      "composure"
+    ]
+  },
+  {
+    "id": "chunk-030",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Required > 1",
+    "ordinal": 30,
+    "step_number": null,
+    "content": "Greet guests as you see them - use their name when possible.",
+    "dimensions": [
+      "composure",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-031",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Required > 2",
+    "ordinal": 31,
+    "step_number": null,
+    "content": "Always smile.",
+    "dimensions": [
+      "composure",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-032",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Required > 3",
+    "ordinal": 32,
+    "step_number": null,
+    "content": "Remain standing when dealing with a guest at a desk.",
+    "dimensions": [
+      "composure",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-033",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Required > 4",
+    "ordinal": 33,
+    "step_number": null,
+    "content": "Maintain eye contact and an open posture; keep arms unfolded.",
+    "dimensions": [
+      "composure",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-034",
+    "document_id": "sop02-professional-ethic",
+    "document_title": "Professional Ethic While On Duty",
+    "source_ref": "S4",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Professional Ethic > Required > 5",
+    "ordinal": 34,
+    "step_number": null,
+    "content": "Give the guest your full attention.",
+    "dimensions": [
+      "composure",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-035",
+    "document_id": "sop-positive-alternatives",
+    "document_title": "Positive Alternatives and Outcomes",
+    "source_ref": "S2/S3",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Positive Alternatives > 1",
+    "ordinal": 35,
+    "step_number": null,
+    "content": "Never say 'no problem'. Instead: certainly / absolutely / of course.",
+    "dimensions": [
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-036",
+    "document_id": "sop-positive-alternatives",
+    "document_title": "Positive Alternatives and Outcomes",
+    "source_ref": "S2/S3",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Positive Alternatives > 2",
+    "ordinal": 36,
+    "step_number": null,
+    "content": "Never say 'no'. Instead: offer an appropriate alternative.",
+    "dimensions": [
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-037",
+    "document_id": "sop-positive-alternatives",
+    "document_title": "Positive Alternatives and Outcomes",
+    "source_ref": "S2/S3",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Positive Alternatives > 3",
+    "ordinal": 37,
+    "step_number": null,
+    "content": "Never say 'I don't know'. Instead: always give an alternative to the guest.",
+    "dimensions": [
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-038",
+    "document_id": "sop-positive-alternatives",
+    "document_title": "Positive Alternatives and Outcomes",
+    "source_ref": "S2/S3",
+    "doc_type": "standard",
+    "department": "all",
+    "section_path": "Positive Alternatives > 4",
+    "ordinal": 38,
+    "step_number": null,
+    "content": "Never say 'I can't tell you'. Instead: I regret that I do not have that information at hand, please let me get someone who may assist you.",
+    "dimensions": [
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-039",
+    "document_id": "sop-managing-your-station",
+    "document_title": "Managing Your Station",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Managing Your Station > Trigger 1",
+    "ordinal": 39,
+    "step_number": 1,
+    "content": "Glass one-third full or near empty - offer another round.",
+    "dimensions": [
+      "anticipation"
+    ]
+  },
+  {
+    "id": "chunk-040",
+    "document_id": "sop-managing-your-station",
+    "document_title": "Managing Your Station",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Managing Your Station > Trigger 2",
+    "ordinal": 40,
+    "step_number": 2,
+    "content": "Busy and cannot attend immediately - make eye contact and set an expectation.",
+    "dimensions": [
+      "anticipation"
+    ]
+  },
+  {
+    "id": "chunk-041",
+    "document_id": "sop-managing-your-station",
+    "document_title": "Managing Your Station",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Managing Your Station > Trigger 3",
+    "ordinal": 41,
+    "step_number": 3,
+    "content": "Check back within 2 minutes of food delivery.",
+    "dimensions": [
+      "anticipation"
+    ]
+  },
+  {
+    "id": "chunk-042",
+    "document_id": "sop-managing-your-station",
+    "document_title": "Managing Your Station",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Managing Your Station > Trigger 4",
+    "ordinal": 42,
+    "step_number": 4,
+    "content": "Observe your station and check each table for needs.",
+    "dimensions": [
+      "anticipation"
+    ]
+  },
+  {
+    "id": "chunk-043",
+    "document_id": "sop05-eleven-steps",
+    "document_title": "11 Steps of Service",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "11 Steps of Service > 1. greet_on_approach",
+    "ordinal": 43,
+    "step_number": 1,
+    "content": "Greet the guest when 5 steps away, eye contact, appropriate phrase.",
+    "dimensions": [
+      "anticipation",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-044",
+    "document_id": "sop05-eleven-steps",
+    "document_title": "11 Steps of Service",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "11 Steps of Service > 2. drinks_order",
+    "ordinal": 44,
+    "step_number": 2,
+    "content": "Drinks order taken within 3 minutes.",
+    "dimensions": [
+      "anticipation",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-045",
+    "document_id": "sop05-eleven-steps",
+    "document_title": "11 Steps of Service",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "11 Steps of Service > 3. food_order",
+    "ordinal": 45,
+    "step_number": 3,
+    "content": "Food order taken within 2 minutes of readiness.",
+    "dimensions": [
+      "anticipation",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-046",
+    "document_id": "sop05-eleven-steps",
+    "document_title": "11 Steps of Service",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "11 Steps of Service > 4. satisfaction_check",
+    "ordinal": 46,
+    "step_number": 4,
+    "content": "Customer satisfaction checked 2 minutes after food delivery.",
+    "dimensions": [
+      "anticipation",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-047",
+    "document_id": "sop05-eleven-steps",
+    "document_title": "11 Steps of Service",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "11 Steps of Service > 5. payment",
+    "ordinal": 47,
+    "step_number": 5,
+    "content": "Payment collected within 2 minutes of guest readiness.",
+    "dimensions": [
+      "anticipation",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-048",
+    "document_id": "sop05-eleven-steps",
+    "document_title": "11 Steps of Service",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "11 Steps of Service > 6. farewell",
+    "ordinal": 48,
+    "step_number": 6,
+    "content": "Thank guest for coming and invite him/her back.",
+    "dimensions": [
+      "anticipation",
+      "communication"
+    ]
+  },
+  {
+    "id": "chunk-049",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > Authority and Approval > 1",
+    "ordinal": 49,
+    "step_number": null,
+    "content": "Staff may resolve a complaint themselves if they feel confident.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-050",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > Authority and Approval > 2",
+    "ordinal": 50,
+    "step_number": null,
+    "content": "Staff may offer a complimentary item (coffee or beverage) at their discretion.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-051",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > Authority and Approval > 3",
+    "ordinal": 51,
+    "step_number": null,
+    "content": "Refunds must be approved by the department manager/supervisor BEFORE being discussed with the guest.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-052",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > Authority and Approval > 4",
+    "ordinal": 52,
+    "step_number": null,
+    "content": "All complaints are reported to the department manager even when resolved.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-053",
+    "document_id": "sop-fnb-complaint",
+    "document_title": "Complaint Handling (A.L.O.U.D.)",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "f_and_b",
+    "section_path": "Complaint Handling > Authority and Approval > 5",
+    "ordinal": 53,
+    "step_number": null,
+    "content": "Comp items must be posted to a management account and signed for by the manager.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-054",
+    "document_id": "sop-escalation",
+    "document_title": "Escalation and Logging",
+    "source_ref": "S2",
+    "doc_type": "procedure",
+    "department": "all",
+    "section_path": "Escalation > Rule 1",
+    "ordinal": 54,
+    "step_number": null,
+    "content": "Escalate to manager: seat the guest, brief the manager, manager logs in complaint log.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-055",
+    "document_id": "sop-escalation",
+    "document_title": "Escalation and Logging",
+    "source_ref": "S3",
+    "doc_type": "procedure",
+    "department": "all",
+    "section_path": "Escalation > Rule 2",
+    "ordinal": 55,
+    "step_number": null,
+    "content": "All complaints logged with the General Manager/Duty Manager no matter how minor.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-056",
+    "document_id": "sop-escalation",
+    "document_title": "Escalation and Logging",
+    "source_ref": "S3",
+    "doc_type": "procedure",
+    "department": "all",
+    "section_path": "Escalation > Rule 3",
+    "ordinal": 56,
+    "step_number": null,
+    "content": "Incident reports reviewed by H&S officer or GM within 72 hours; once signed off by the GM the report cannot be edited.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-057",
+    "document_id": "sop-escalation",
+    "document_title": "Escalation and Logging",
+    "source_ref": "S4",
+    "doc_type": "procedure",
+    "department": "all",
+    "section_path": "Escalation > Rule 4",
+    "ordinal": 57,
+    "step_number": null,
+    "content": "Inform department manager about all guest complaints even when already resolved.",
+    "dimensions": [
+      "service_recovery"
+    ]
+  },
+  {
+    "id": "chunk-058",
+    "document_id": "culture-deck",
+    "document_title": "Culture and Values",
+    "source_ref": "S1/S3",
+    "doc_type": "culture",
+    "department": "all",
+    "section_path": "Culture > Statement 1",
+    "ordinal": 58,
+    "step_number": null,
+    "content": "All team members anticipate guest needs.",
+    "dimensions": [
+      "anticipation",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-059",
+    "document_id": "culture-deck",
+    "document_title": "Culture and Values",
+    "source_ref": "S1/S3",
+    "doc_type": "culture",
+    "department": "all",
+    "section_path": "Culture > Statement 2",
+    "ordinal": 59,
+    "step_number": null,
+    "content": "All team members to deliver a positive experience for all customers.",
+    "dimensions": [
+      "anticipation",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-060",
+    "document_id": "culture-deck",
+    "document_title": "Culture and Values",
+    "source_ref": "S1/S3",
+    "doc_type": "culture",
+    "department": "all",
+    "section_path": "Culture > Statement 3",
+    "ordinal": 60,
+    "step_number": null,
+    "content": "Instil a culture where guest expectations are anticipated and exceeded.",
+    "dimensions": [
+      "anticipation",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-061",
+    "document_id": "culture-deck",
+    "document_title": "Culture and Values",
+    "source_ref": "S1/S3",
+    "doc_type": "culture",
+    "department": "all",
+    "section_path": "Culture > Statement 4",
+    "ordinal": 61,
+    "step_number": null,
+    "content": "Guests choose a hotel because they feel in good hands.",
+    "dimensions": [
+      "anticipation",
+      "empathy"
+    ]
+  },
+  {
+    "id": "chunk-062",
+    "document_id": "culture-deck",
+    "document_title": "Culture and Values",
+    "source_ref": "S1/S3",
+    "doc_type": "culture",
+    "department": "all",
+    "section_path": "Culture > Statement 5",
+    "ordinal": 62,
+    "step_number": null,
+    "content": "Create acts of kindness that are voluntary, unscripted and spontaneous.",
+    "dimensions": [
+      "anticipation",
+      "empathy"
+    ]
+  }
+]

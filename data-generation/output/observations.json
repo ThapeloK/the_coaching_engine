@@ -1,0 +1,1506 @@
+[
+  {
+    "id": "obs-001",
+    "staff_id": "staff-001",
+    "staff_name": "Diego",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-05",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 2,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-002",
+    "staff_id": "staff-001",
+    "staff_name": "Diego",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 2,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-003",
+    "staff_id": "staff-002",
+    "staff_name": "Niamh",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-07",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 2
+    }
+  },
+  {
+    "id": "obs-004",
+    "staff_id": "staff-003",
+    "staff_name": "Tomasz",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-03",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": 3,
+      "service_recovery": null,
+      "anticipation": 4
+    }
+  },
+  {
+    "id": "obs-005",
+    "staff_id": "staff-003",
+    "staff_name": "Tomasz",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-06",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 3
+    }
+  },
+  {
+    "id": "obs-006",
+    "staff_id": "staff-004",
+    "staff_name": "Rachel",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-08",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 2,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-007",
+    "staff_id": "staff-004",
+    "staff_name": "Rachel",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-008",
+    "staff_id": "staff-005",
+    "staff_name": "Kwame",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-10",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-009",
+    "staff_id": "staff-005",
+    "staff_name": "Kwame",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 2,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-010",
+    "staff_id": "staff-006",
+    "staff_name": "Lucia",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 3
+    }
+  },
+  {
+    "id": "obs-011",
+    "staff_id": "staff-007",
+    "staff_name": "Sean",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-02",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-012",
+    "staff_id": "staff-007",
+    "staff_name": "Sean",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-04",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-013",
+    "staff_id": "staff-007",
+    "staff_name": "Sean",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-30",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-014",
+    "staff_id": "staff-008",
+    "staff_name": "Priya",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-02",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-015",
+    "staff_id": "staff-009",
+    "staff_name": "Andrei",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-06",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-016",
+    "staff_id": "staff-009",
+    "staff_name": "Andrei",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-06",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 5,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-017",
+    "staff_id": "staff-010",
+    "staff_name": "Yusuf",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-07",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": 3,
+      "service_recovery": null,
+      "anticipation": 3
+    }
+  },
+  {
+    "id": "obs-018",
+    "staff_id": "staff-011",
+    "staff_name": "Katarzyna",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-05",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-019",
+    "staff_id": "staff-011",
+    "staff_name": "Katarzyna",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-03",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-020",
+    "staff_id": "staff-011",
+    "staff_name": "Katarzyna",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-10",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-021",
+    "staff_id": "staff-012",
+    "staff_name": "Emeka",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-10",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 2,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-022",
+    "staff_id": "staff-012",
+    "staff_name": "Emeka",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-28",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 2,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-023",
+    "staff_id": "staff-012",
+    "staff_name": "Emeka",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-06",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 3
+    }
+  },
+  {
+    "id": "obs-024",
+    "staff_id": "staff-013",
+    "staff_name": "Siobhan",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-06",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-025",
+    "staff_id": "staff-013",
+    "staff_name": "Siobhan",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-04",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-026",
+    "staff_id": "staff-014",
+    "staff_name": "Mateusz",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-28",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 2,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-027",
+    "staff_id": "staff-015",
+    "staff_name": "Adaeze",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-08",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": 3,
+      "service_recovery": null,
+      "anticipation": 4
+    }
+  },
+  {
+    "id": "obs-028",
+    "staff_id": "staff-015",
+    "staff_name": "Adaeze",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 3
+    }
+  },
+  {
+    "id": "obs-029",
+    "staff_id": "staff-016",
+    "staff_name": "Ciaran",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-030",
+    "staff_id": "staff-016",
+    "staff_name": "Ciaran",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-31",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-031",
+    "staff_id": "staff-017",
+    "staff_name": "Ingrid",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-29",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-032",
+    "staff_id": "staff-017",
+    "staff_name": "Ingrid",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-033",
+    "staff_id": "staff-017",
+    "staff_name": "Ingrid",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-31",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-034",
+    "staff_id": "staff-018",
+    "staff_name": "Rafal",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-08",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 4
+    }
+  },
+  {
+    "id": "obs-035",
+    "staff_id": "staff-018",
+    "staff_name": "Rafal",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-04",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-036",
+    "staff_id": "staff-019",
+    "staff_name": "Nuala",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-10",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-037",
+    "staff_id": "staff-019",
+    "staff_name": "Nuala",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-10",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-038",
+    "staff_id": "staff-019",
+    "staff_name": "Nuala",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-039",
+    "staff_id": "staff-020",
+    "staff_name": "Tomas",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 5,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 4
+    }
+  },
+  {
+    "id": "obs-040",
+    "staff_id": "staff-021",
+    "staff_name": "Blessing",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-29",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-041",
+    "staff_id": "staff-021",
+    "staff_name": "Blessing",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-31",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-042",
+    "staff_id": "staff-021",
+    "staff_name": "Blessing",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-02",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 2,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-043",
+    "staff_id": "staff-022",
+    "staff_name": "Orla",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-05",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": 3,
+      "service_recovery": null,
+      "anticipation": 3
+    }
+  },
+  {
+    "id": "obs-044",
+    "staff_id": "staff-023",
+    "staff_name": "Hassan",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-08",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 2,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-045",
+    "staff_id": "staff-024",
+    "staff_name": "Petra",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-29",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 3
+    }
+  },
+  {
+    "id": "obs-046",
+    "staff_id": "staff-024",
+    "staff_name": "Petra",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-06",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-047",
+    "staff_id": "staff-025",
+    "staff_name": "Declan",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-08",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-048",
+    "staff_id": "staff-025",
+    "staff_name": "Declan",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-08",
+    "context": "Guest complaint at front desk, room not ready at 3pm",
+    "what_happened": "Froze, then escalated to me without attempting recovery herself.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 2,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-049",
+    "staff_id": "staff-025",
+    "staff_name": "Declan",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-07",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-050",
+    "staff_id": "staff-026",
+    "staff_name": "Amara",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-07",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-051",
+    "staff_id": "staff-027",
+    "staff_name": "Lukasz",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": 4,
+      "service_recovery": null,
+      "anticipation": 4
+    }
+  },
+  {
+    "id": "obs-052",
+    "staff_id": "staff-028",
+    "staff_name": "Roisin",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Busy check-in queue, four deep",
+    "what_happened": "Kept the queue informed and stayed composed. Handled it well.",
+    "ratings": {
+      "empathy": null,
+      "communication": 4,
+      "composure": 3,
+      "service_recovery": null,
+      "anticipation": 4
+    }
+  },
+  {
+    "id": "obs-053",
+    "staff_id": "staff-028",
+    "staff_name": "Roisin",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-03",
+    "context": "Checkout billing query",
+    "what_happened": "Explained clearly but did not offer any goodwill gesture, went straight to me.",
+    "ratings": {
+      "empathy": null,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-054",
+    "staff_id": "staff-029",
+    "staff_name": "Aoife",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-05",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-055",
+    "staff_id": "staff-029",
+    "staff_name": "Aoife",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-30",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-056",
+    "staff_id": "staff-030",
+    "staff_name": "Marek",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-03",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 3,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-057",
+    "staff_id": "staff-030",
+    "staff_name": "Marek",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 3,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-058",
+    "staff_id": "staff-030",
+    "staff_name": "Marek",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 3,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-059",
+    "staff_id": "staff-031",
+    "staff_name": "Chloe",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-06",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 4,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-060",
+    "staff_id": "staff-031",
+    "staff_name": "Chloe",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-30",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-061",
+    "staff_id": "staff-031",
+    "staff_name": "Chloe",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-29",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 4,
+      "communication": 2,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-062",
+    "staff_id": "staff-032",
+    "staff_name": "Bogdan",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-28",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-063",
+    "staff_id": "staff-032",
+    "staff_name": "Bogdan",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-07",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-064",
+    "staff_id": "staff-033",
+    "staff_name": "Giulia",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-02",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 3,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-065",
+    "staff_id": "staff-033",
+    "staff_name": "Giulia",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-30",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-066",
+    "staff_id": "staff-034",
+    "staff_name": "Padraig",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-30",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 2,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-067",
+    "staff_id": "staff-035",
+    "staff_name": "Zofia",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-10",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 3,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-068",
+    "staff_id": "staff-036",
+    "staff_name": "Kwabena",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-28",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-069",
+    "staff_id": "staff-036",
+    "staff_name": "Kwabena",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-04",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-070",
+    "staff_id": "staff-036",
+    "staff_name": "Kwabena",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 5,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-071",
+    "staff_id": "staff-037",
+    "staff_name": "Eimear",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 4,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-072",
+    "staff_id": "staff-037",
+    "staff_name": "Eimear",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-31",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 4,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-073",
+    "staff_id": "staff-037",
+    "staff_name": "Eimear",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-02",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-074",
+    "staff_id": "staff-038",
+    "staff_name": "Dmytro",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 3,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-075",
+    "staff_id": "staff-038",
+    "staff_name": "Dmytro",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 2,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-076",
+    "staff_id": "staff-038",
+    "staff_name": "Dmytro",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-07",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 2,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-077",
+    "staff_id": "staff-039",
+    "staff_name": "Sinead",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-078",
+    "staff_id": "staff-039",
+    "staff_name": "Sinead",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-05",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-079",
+    "staff_id": "staff-040",
+    "staff_name": "Obi",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-06",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 4,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-080",
+    "staff_id": "staff-040",
+    "staff_name": "Obi",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-28",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-081",
+    "staff_id": "staff-041",
+    "staff_name": "Magda",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-08",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-082",
+    "staff_id": "staff-042",
+    "staff_name": "Fionn",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-07",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 4,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-083",
+    "staff_id": "staff-042",
+    "staff_name": "Fionn",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-28",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 3,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-084",
+    "staff_id": "staff-042",
+    "staff_name": "Fionn",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-29",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 4,
+      "communication": 3,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-085",
+    "staff_id": "staff-043",
+    "staff_name": "Leila",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-08",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-086",
+    "staff_id": "staff-044",
+    "staff_name": "Cathal",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-01",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 3,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-087",
+    "staff_id": "staff-044",
+    "staff_name": "Cathal",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-03",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-088",
+    "staff_id": "staff-044",
+    "staff_name": "Cathal",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-03",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 4,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-089",
+    "staff_id": "staff-045",
+    "staff_name": "Anca",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-28",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-090",
+    "staff_id": "staff-045",
+    "staff_name": "Anca",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-10",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-091",
+    "staff_id": "staff-045",
+    "staff_name": "Anca",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-07",
+    "context": "Guest unhappy with wine recommendation",
+    "what_happened": "Listened without interrupting and offered an alternative. Good.",
+    "ratings": {
+      "empathy": 3,
+      "communication": 4,
+      "composure": null,
+      "service_recovery": null,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-092",
+    "staff_id": "staff-046",
+    "staff_name": "Jibril",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-09",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 2,
+      "communication": null,
+      "composure": 3,
+      "service_recovery": 5,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-093",
+    "staff_id": "staff-046",
+    "staff_name": "Jibril",
+    "manager_name": "Marta",
+    "observed_at": "2026-08-28",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 2,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  },
+  {
+    "id": "obs-094",
+    "staff_id": "staff-046",
+    "staff_name": "Jibril",
+    "manager_name": "Marta",
+    "observed_at": "2026-09-04",
+    "context": "Late mains on a table of six",
+    "what_happened": "Apologised, acknowledged the specific delay, comped coffees. Textbook A.L.O.U.D.",
+    "ratings": {
+      "empathy": 3,
+      "communication": null,
+      "composure": 4,
+      "service_recovery": 4,
+      "anticipation": null
+    }
+  }
+]

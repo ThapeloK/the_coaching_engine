@@ -1,0 +1,122 @@
+[
+  {
+    "id": "staff-001",
+    "name": "Diego",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "strong in practice, freezes with real guests",
+    "tenure_months": 8
+  },
+  {
+    "id": "staff-002",
+    "name": "Niamh",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "strong with regulars, less sure with complaints",
+    "tenure_months": 14
+  },
+  {
+    "id": "staff-003",
+    "name": "Tomasz",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "confident but improvises around the standard",
+    "tenure_months": 25
+  },
+  {
+    "id": "staff-004",
+    "name": "Rachel",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "English as a second language, careful and precise",
+    "tenure_months": 28
+  },
+  {
+    "id": "staff-005",
+    "name": "Kwame",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "long tenure, efficient, occasionally clipped under pressure",
+    "tenure_months": 5
+  },
+  {
+    "id": "staff-006",
+    "name": "Lucia",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "long tenure, efficient, occasionally clipped under pressure",
+    "tenure_months": 27
+  },
+  {
+    "id": "staff-007",
+    "name": "Sean",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "confident but improvises around the standard",
+    "tenure_months": 36
+  },
+  {
+    "id": "staff-008",
+    "name": "Priya",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "confident but improvises around the standard",
+    "tenure_months": 46
+  },
+  {
+    "id": "staff-009",
+    "name": "Andrei",
+    "department": "front_office",
+    "role": "staff",
+    "persona": "confident but improvises around the standard",
+    "tenure_months": 46
+  },
+  {
+    "id": "staff-010",
+    "name": "Aoife",
+    "department": "f_and_b",
+    "role": "staff",
+    "persona": "consistent in practice and on the floor",
+    "tenure_months": 5
+  },
+  {
+    "id": "staff-011",
+    "name": "Marek",
+    "department": "f_and_b",
+    "role": "staff",
+    "persona": "English as a second language, careful and precise",
+    "tenure_months": 33
+  },
+  {
+    "id": "staff-012",
+    "name": "Chloe",
+    "department": "f_and_b",
+    "role": "staff",
+    "persona": "confident but improvises around the standard",
+    "tenure_months": 27
+  },
+  {
+    "id": "staff-013",
+    "name": "Bogdan",
+    "department": "f_and_b",
+    "role": "staff",
+    "persona": "English as a second language, careful and precise",
+    "tenure_months": 29
+  },
+  {
+    "id": "staff-014",
+    "name": "Marta",
+    "department": "front_office",
+    "role": "manager",
+    "persona": "duty manager, ~40 reports, time-poor",
+    "tenure_months": 61
+  },
+  {
+    "id": "staff-015",
+    "name": "Fiona",
+    "department": "all",
+    "role": "ld_admin",
+    "persona": "L&D lead, part-time across two properties",
+    "tenure_months": 30
+  }
+]
