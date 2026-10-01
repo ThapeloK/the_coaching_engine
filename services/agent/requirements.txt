@@ -1,0 +1,3 @@
+# Deterministic core has no runtime dependencies by design.
+# Test only:
+pytest>=8.0

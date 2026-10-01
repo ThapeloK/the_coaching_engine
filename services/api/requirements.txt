@@ -1,0 +1,11 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+psycopg[binary,pool]>=3.2
+python-dotenv>=1.0
+httpx>=0.28
+# Vertex AI mints a bearer token from a service account; it does not
+# accept API keys.
+google-auth>=2.35
+python-multipart>=0.0.9
+# Optional. The service starts and runs fine without it.
+langfuse>=2.50
