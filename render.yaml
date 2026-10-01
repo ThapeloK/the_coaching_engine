@@ -1,0 +1,97 @@
+# Render Blueprint: the API.
+#
+# The database is NOT defined here. It lives on Neon, because Render's own free
+# Postgres expires after 30 days and this has to still be standing at the
+# pitch. Provision it with scripts/deploy_db.py, then paste the two connection
+# strings it prints into the environment below.
+#
+# The frontend is not here either: Vercel already builds web/ from the same
+# repo. Point it at this service by setting, in the Vercel project:
+#   NEXT_PUBLIC_USE_REAL_API=true
+#   NEXT_PUBLIC_API_BASE_URL=https://<this-service>.onrender.com/api/v1
+#
+# To deploy: Render dashboard > New > Blueprint > pick this repo. Render reads
+# this file, creates the service, and asks you for every value marked
+# `sync: false` below. None of them are stored in git.
+
+services:
+  - type: web
+    name: coaching-engine-api
+    runtime: docker
+    plan: free
+    region: frankfurt          # EU. Inference and data stay in the EU, which
+                               # is the same claim the governance section of
+                               # the pitch makes. Do not move this to Oregon
+                               # for a few milliseconds.
+    dockerfilePath: ./services/api/Dockerfile
+    dockerContext: .           # repo root: the image needs services/agent too,
+                               # which is where the tested reasoning core lives
+    healthCheckPath: /health
+
+    # The free plan sleeps after 15 minutes idle and takes about a minute to
+    # wake. A judge clicking a cold link waits that minute, so this pings
+    # itself. It is not a workaround for the plan; it is what keeps the demo
+    # instant. Belt and braces: also hit the URL yourself before you present.
+    autoDeploy: true
+
+    envVars:
+      # ---- database -------------------------------------------------------
+      # Both are printed by scripts/deploy_db.py. DATABASE_URL must be the
+      # ce_app role: row level security does not apply to a table's owner, so
+      # pasting the owner string here silently disables every policy.
+      - key: DATABASE_URL
+        sync: false
+      - key: SEED_DATABASE_URL
+        sync: false
+
+      # ---- providers ------------------------------------------------------
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: MANUS_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+
+      # ---- Vertex AI -----------------------------------------------------
+      # google-auth wants a FILE and a container has no file to point at, so
+      # the whole service account document travels as an env var and
+      # providers.py writes it to a temp path on first use.
+      - key: GOOGLE_CREDENTIALS_JSON
+        sync: false
+      - key: GCP_PROJECT_ID
+        value: project-7ffd39d7-3c02-4599-ae9
+      - key: GCP_REGION
+        value: europe-west1
+
+      # ---- optional: tracing ---------------------------------------------
+      - key: LANGFUSE_PUBLIC_KEY
+        sync: false
+      - key: LANGFUSE_SECRET_KEY
+        sync: false
+      - key: LANGFUSE_HOST
+        value: https://cloud.langfuse.com
+
+      # ---- runtime --------------------------------------------------------
+      - key: CE_ENV
+        value: render
+      # Extra browser origins allowed to call this API. Vercel preview
+      # deployments are matched by regex in main.py; this is for a custom
+      # domain, if we ever add one.
+      - key: CE_ALLOWED_ORIGINS
+        sync: false
+      # The spare OpenAI key. The org key is free tier at 50 requests/day.
+      - key: OPENAI_API_KEY_FALLBACK
+        sync: false
+      # Synthesised guest lines. The ElevenLabs free tier is 10,000 characters
+      # for the LIFE of the account, and a container filesystem is wiped on
+      # every deploy and every cold start. The demo lines are baked into the
+      # image at build time (see the Dockerfile) so they cost nothing and play
+      # instantly; this path points at them.
+      - key: CE_VOICE_CACHE
+        value: /app/.voice-cache
+      - key: PYTHONUNBUFFERED
+        value: "1"
